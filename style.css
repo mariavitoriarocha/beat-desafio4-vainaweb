@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 63vh;
+    background-color: #129799;
+}
+
+.navigation-header {
+    width: 100%;
+    display: block;
+}
+
+.ul-header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#F7F7F7 ;
+    font-size: 25px;
+}
+
+.header-dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.titulo-um {
+    font-size: 40px;
+    color: #F7F7F7;
+    margin-top: 22px;
+}
+
+.header-tres {
+    width: 100%;
+    display: block;
+}
+
+.ul-header-dois {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#F7F7F7 ;
+    font-size: 25px;
+}
+
+main {
+    background-color: #FFA185;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.titulo-dois {
+    font-size: 40px;
+    color: #F7F7F7;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 25px;
+}
+
+.main-um {
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.img-main {
+    width: 600px;
+    height: 300px;
+}
+
+.img-um, .img-dois, .img-tres, .img-quatro {
+    display: inline-flex;
+    padding-left: 5.4rem;
+    margin-bottom: 3rem;
+}
+
+.vejamais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+footer {
+    background-color: #129799;
+    width: 100%;
+    display: flex;
+    height: 20vh;
+}
+
+.socialmedia {
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.img-socialmedia {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.nav-footer-um {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-footer {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-footer {
+    height: 10vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:#F7F7F7 ;
+    font-size: 25px;
+    }
